@@ -265,7 +265,7 @@ creature_mer
 				[TLCM_NOUN:eyes:PLURAL]
 
 [CREATURE:BOSMER]
-	[DESCRIPTION:A tall, golden-skinned variation of mer. They have both a natural proclivity and vulnerability to magicka, as well as a natural resistance to disease. Like other mer, they have a longer lifespan than the average.]
+	[DESCRIPTION:A short mer who usually lives in the forest. Their skill with the bow is well-known enough that some say they invented it. Like other mer, they have a longer lifespan than the average.]
 	[NAME:bosmer:bosmeri:bosmeri]
 	[CASTE_NAME:bosmer:bosmeri:bosmeri]
 	[CREATURE_TILE:'e'][COLOR:3:0:0]
@@ -351,6 +351,10 @@ creature_mer
 	[MENT_ATT_RANGE:SPATIAL_SENSE:700:1200:1400:1500:1600:1800:5000]        ++
 	[MENT_ATT_RANGE:FOCUS:450:950:1150:1250:1350:1550:5000]                 +
 	[APPLY_CREATURE_VARIATION:RESISTS_DISEASE_TES]
+	[SYNDROME_DILUTION_FACTOR:SHOCK:80]
+	[SYNDROME_DILUTION_FACTOR:FROST:80]
+	[SYNDROME_DILUTION_FACTOR:FIRE:66]
+	[SYNDROME_DILUTION_FACTOR:MAGICKA:66]
 	[BODY_SIZE:0:0:3000]
 	[BODY_SIZE:3:0:15000]
 	[BODY_SIZE:14:0:70000]
@@ -533,9 +537,9 @@ creature_mer
 				[TLCM_NOUN:eyes:PLURAL]
 
 [CREATURE:CHIMER]
-	[DESCRIPTION:A tall, golden-skinned variation of mer. They have both a natural proclivity and vulnerability to magicka, as well as a natural resistance to disease. Like other mer, they have a longer lifespan than the average.]
+	[DESCRIPTION:A tall, golden-skinned variation of mer. They are renowned for their agility and intelligence. They split from the Aldmer over religious differences, regarding what virtues are best celebrated.]
 	[NAME:chimer:chimeri:chimeri]
-	[CASTE_NAME:chimer:chimer:chimer]
+	[CASTE_NAME:chimer:chimeri:chimeri]
 	[CREATURE_TILE:'e'][COLOR:3:0:0]
 	[CREATURE_SOLDIER_TILE:137]
 	[CREATURE_CLASS:MAMMAL]
@@ -615,6 +619,13 @@ creature_mer
 	[MENT_ATT_RANGE:WILLPOWER:0:400:600:750:800:900:5000]                   --
 	[MENT_ATT_RANGE:FOCUS:700:1200:1400:1500:1600:1800:5000]                ++
 	[MENT_ATT_RANGE:INTUITION:450:950:1150:1250:1350:1550:5000]             +
+	[CAN_DO_INTERACTION:ANCESTOR_GUARDIAN]
+		[CDI:USAGE_HINT:DEFEND]
+		[CDI:ADV_NAME:ancestor guardian]
+		[CDI:TARGET:A:SELF_ONLY]
+		[CDI:TARGET_RANGE:A:1]
+		[CDI:VERB:gesture:gestures:NA]
+		[CDI:WAIT_PERIOD:1200]
 	[BODY_SIZE:0:0:3000]
 	[BODY_SIZE:3:0:15000]
 	[BODY_SIZE:14:0:70000]
@@ -792,8 +803,8 @@ creature_mer
 
 [CREATURE:DUNMER]
 	[DESCRIPTION:An ashen-skinned variation of mer. Formerly the chimer, their skin was turned ashen and eyes red due to a curse from a god. They are renowned for their agility and intelligence.]
-	[NAME:chimer:chimeri:chimeri]
-	[CASTE_NAME:chimer:chimer:chimer]
+	[NAME:dunmer:dunmeri:dunmeri]
+	[CASTE_NAME:dunmer:dunmeri:dunmeri]
 	[CREATURE_TILE:'e'][COLOR:3:0:0]
 	[CREATURE_SOLDIER_TILE:137]
 	[CREATURE_CLASS:MAMMAL]
@@ -873,6 +884,13 @@ creature_mer
 	[MENT_ATT_RANGE:WILLPOWER:0:400:600:750:800:900:5000]                   --
 	[MENT_ATT_RANGE:FOCUS:700:1200:1400:1500:1600:1800:5000]                ++
 	[MENT_ATT_RANGE:INTUITION:450:950:1150:1250:1350:1550:5000]             +
+	[CAN_DO_INTERACTION:ANCESTOR_GUARDIAN]
+		[CDI:USAGE_HINT:DEFEND]
+		[CDI:ADV_NAME:ancestor guardian]
+		[CDI:TARGET:A:SELF_ONLY]
+		[CDI:TARGET_RANGE:A:1]
+		[CDI:VERB:gesture:gestures:NA]
+		[CDI:WAIT_PERIOD:1200]
 	[BODY_SIZE:0:0:3000]
 	[BODY_SIZE:3:0:15000]
 	[BODY_SIZE:14:0:70000]
@@ -1049,7 +1067,7 @@ creature_mer
 				[TLCM_NOUN:eyes:PLURAL]
 
 [CREATURE:DWEMER]
-	[DESCRIPTION:A tall, golden-skinned variation of mer. They have both a natural proclivity and vulnerability to magicka, as well as a natural resistance to disease. Like other mer, they have a longer lifespan than the average.]
+	[DESCRIPTION:A tall, light-skinned variation of mer. They live in huge cities underground, refining their animunculi and tonal architecture. Like other mer, they have a longer lifespan than the average.]
 	[NAME:dwemer:dwemeri:dwemeri]
 	[CASTE_NAME:dwemer:dwemer:dwemeri]
 	[CREATURE_TILE:1][COLOR:3:0:0]
@@ -1059,6 +1077,8 @@ creature_mer
 	[STRANGE_MOODS]
 	[CANOPENDOORS]
 	[BENIGN]
+	[DOES_NOT_EXIST] for now
+	[FANFICUL]
 	[PREFSTRING:mystery]
 	[SPEECH:elf.txt]
 	[PERSONALITY:STRESS_VULNERABILITY:0:45:100]
@@ -1313,7 +1333,7 @@ creature_mer
 	[NAME:orsimer:orsimeri:orcish]
 	[CASTE_NAME:orsimer:orsimeri:orcish]
 	[CREATURE_TILE:'O'][COLOR:3:0:0]
-	[CREATURE_SOLDIER_TILE:'O']
+	[CREATURE_SOLDIER_TILE:153]
 	[CREATURE_CLASS:MAMMAL]
 	[INTELLIGENT]
 	[STRANGE_MOODS]
@@ -1392,6 +1412,8 @@ creature_mer
 	[MENT_ATT_RANGE:WILLPOWER:700:1200:1400:1500:1600:1800:5000]            ++
 	[MENT_ATT_RANGE:ANALYTICAL_ABILITY:0:400:600:750:800:900:5000]          --
 	[MENT_ATT_RANGE:SPATIAL_SENSE:150:600:800:900:1000:1100:5000]           -
+	[TRANCES]
+	[MAXAGE:60:120]
 	[BODY_SIZE:0:0:3000]
 	[BODY_SIZE:1:168:20000]
 	[BODY_SIZE:12:0:90000] quite a bit larger than other races
