@@ -1,0 +1,53 @@
+text_tes.txt
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:SECRET_THUUM]
+
+Breath
+Shouts
+the Tongue
+Breath
+Shouts
+the Tongue
+Breath
+Shouts
+the Tongue
+Breath
+Shouts
+the Tongue
+Tonal Projection
+
+[TEXT_SET:AURA_WHISPER_SHOUT]
+Laas yah nir!
+
+[TEXT_SET:CALL_OF_VALOR_SHOUT]
+Hun kall zoor!
+
+[TEXT_SET:CLEAR_SKIES_SHOUT]
+Lok vah koor!
+
+[TEXT_SET:FIRE_BREATH_SHOUT]
+Yol toor shul!
+
+[TEXT_SET:MARKED_FOR_DEATH_SHOUT]
+Krii lun aus!
+
+[TEXT_SET:UNRELENTING_FORCE_SHOUT]
+Fus ro dah!
+
+[TEXT_SET:WHIRLWIND_SPRINT_SHOUT]
+Wuld nah kest!
+
+[TEXT_SET:SLAIN_ALTMER]
+whose ancestors are laughing at [PRO_OBJ]
+whose stride could not escape me
+
+[TEXT_SET:SLAIN_VELOTHI]
+whose plots did not save [PRO_OBJ] from me
+who found that the difference between us was night and day
+who learned that the fifth corner of the house of troubles is me
+
+[TEXT_SET:SLAIN_ORSIMER]
+whose wretched blood stank up my armor for weeks
+whose thirst for battle outpaced [PRO_POS] skill

@@ -1,0 +1,19 @@
+tile_page_tes
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:CHIMERIS_BODY]
+	[FILE:steam/chimeris_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:288:416]
+
+[TILE_PAGE:ALDMERIS_BODY]
+	[FILE:steam/aldmeris_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:288:416]
+
+[TILE_PAGE:ORC_BODY]
+	[FILE:steam/orc_body.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:288:320]
+

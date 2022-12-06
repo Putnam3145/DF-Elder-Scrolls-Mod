@@ -1,0 +1,8 @@
+item_tool_tes
+
+[OBJECT:ITEM]
+
+[ITEM_TOOL:DAEDRA_HEART]
+[NAME:daedra heart:daedra hearts]
+[VALUE:100]
+[TILE:253]
