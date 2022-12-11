@@ -7,6 +7,9 @@ creature_patch_tes
 	[CASTE_NAME:goblin:goblins:goblin]
 	this is the laziest mod i have ever done. i am proud
 
+[SELECT_CREATURE:GOBLIN]
+	[UTTERANCES]
+
 [SELECT_CREATURE:BOBCAT_MAN]
 	[DOES_NOT_EXIST]
 
