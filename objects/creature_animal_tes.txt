@@ -1,6 +1,6 @@
 creature_animal_tes
 
-[OBJET:CREATURE]
+[OBJECT:CREATURE]
 
 [CREATURE:ALIT_TES]
 	[DESCRIPTION:A large omnivorous predator found in shrublands and savannas. It has two legs and no arms, using its mouth exclusively to grip and attack. Its bite is mildly venomous.]
