@@ -1594,3 +1594,12 @@ creature_mer
 	[CASTE_NAME:ayleid:alyeids:alyeidoon]
 	[DESCRIPTION:In a time before time, these elves ran the first empire in the world. Now, they exist only in scattered pockets, with no specific places to call home.]
 	[APPLY_CREATURE_VARIATION:WANDERER_TES:ANY_TROPICAL_FOREST:10|20:2|5:10]
+
+[SELECT_CREATURE:GOBLIN] this is a stopgap for now
+	[NAME:falmer:falmer:falmeri]
+	[CASTE_NAME:falmer:falmer:falmeri]
+	[DESCRIPTION:Formerly a proud group of elves, they were beaten by the nords until, in their desperation, they struck a deal with the Dwemer that led them to the state you see now.]
+	[EXTRAVISION]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:BODY]
+		[CVCT_TARGET:2EYES]
