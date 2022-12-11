@@ -8,6 +8,4 @@ entity_patch_tes
 
 [CUT_ENTITY:FOREST]
 
-[CUT_ENTITY:SKULKING]
-
 [CUT_ENTITY:PLAINS]
