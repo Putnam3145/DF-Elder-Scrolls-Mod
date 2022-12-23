@@ -557,7 +557,7 @@ language_KHAJIIT
 	[T_WORD:DOUR:zonokai]
 	[T_WORD:DOUSE:kelarbo]
 	[T_WORD:DRAB:mudaji]
-	[T_WORD:DRAGON:rege]
+	[T_WORD:DRAGON:alk]
 	[T_WORD:DRAIN:k'toth]
 	[T_WORD:DRAWL:palmiro]
 	[T_WORD:DREAD:yata]

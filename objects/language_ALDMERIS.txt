@@ -557,7 +557,7 @@ language_ALDMERIS
 	[T_WORD:DOUR:firion]
 	[T_WORD:DOUSE:glaur]
 	[T_WORD:DRAB:inwen]
-	[T_WORD:DRAGON:uryon]
+	[T_WORD:DRAGON:aka]
 	[T_WORD:DRAIN:andil]
 	[T_WORD:DRAWL:vel]
 	[T_WORD:DREAD:vhari]

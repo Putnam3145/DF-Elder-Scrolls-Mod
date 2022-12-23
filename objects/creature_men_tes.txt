@@ -12,6 +12,7 @@ we're keeping creature_standard, just overwriting entity_default, therefore,
 	[DESCRIPTION:A medium-sized creature prone to great ambition. They trace their descent directly from the aldmer.]
 	[APPLY_CREATURE_VARIATION:BASE_TES_STATS]
 	warning: i was not looking at the colors when I gave these probabilities. i find the general idea sorta silly in the first place, but.
+	[SELECT_TISSUE:SKIN]
 	[TL_COLOR_MODIFIER:BROWN:1:BURNT_UMBER:1:CINNAMON:1:COPPER:1:DARK_BROWN:1:DARK_PEACH:5:DARK_TAN:1:ECRU:1:PALE_BROWN:1:PALE_CHESTNUT:1:PALE_PINK:5:PEACH:5:PINK:5:RAW_UMBER:1:SEPIA:1:TAN:1:TAUPE_PALE:1:TAUPE_SANDY:1]
 	elven descent means they get more complicated stat changes
 	[PHYS_ATT_RANGE:AGILITY:0:400:600:750:800:900:5000]                     --
@@ -37,6 +38,7 @@ we're keeping creature_standard, just overwriting entity_default, therefore,
 	[CASTE_NAME:colovian:colovians:colovian]
 	[DESCRIPTION:A medium-sized creature prone to great ambition. They are known for their dutiful nature and occasional conquests.]
 	[APPLY_CREATURE_VARIATION:BASE_TES_STATS]
+	[SELECT_TISSUE:SKIN]
 	[TL_COLOR_MODIFIER:BROWN:2:BURNT_UMBER:1:CINNAMON:2:COPPER:2:DARK_BROWN:1:DARK_PEACH:3:DARK_TAN:2:ECRU:1:PALE_BROWN:1:PALE_CHESTNUT:1:PALE_PINK:3:PEACH:3:PINK:3:RAW_UMBER:1:SEPIA:1:TAN:1:TAUPE_PALE:2:TAUPE_SANDY:1]
 	[MENT_ATT_RANGE:SOCIAL_AWARENESS:700:1200:1400:1500:1600:1800:5000]      ++
 	[MENT_ATT_RANGE:WILLPOWER:150:600:800:900:1000:1100:5000]                -
@@ -56,6 +58,7 @@ we're keeping creature_standard, just overwriting entity_default, therefore,
 	[NAME:nibenese:nibenese:nibenese]
 	[CASTE_NAME:nibenese:nibenese:nibenese]
 	[DESCRIPTION:A medium-sized creature prone to great ambition. They are known for their tendency towards philosophy.]
+	[SELECT_TISSUE:SKIN]
 	[TL_COLOR_MODIFIER:BROWN:1:BURNT_UMBER:1:CINNAMON:2:COPPER:5:DARK_BROWN:1:DARK_PEACH:2:DARK_TAN:1:ECRU:1:PALE_BROWN:1:PALE_CHESTNUT:1:PALE_PINK:3:PEACH:3:PINK:3:RAW_UMBER:1:SEPIA:1:TAN:1:TAUPE_PALE:3:TAUPE_SANDY:1]
 	[PHYS_ATT_RANGE:AGILITY:150:600:800:900:1000:1100:5000]                  -
 	[MENT_ATT_RANGE:SOCIAL_AWARENESS:700:1200:1400:1500:1600:1800:5000]      ++
@@ -72,6 +75,7 @@ we're keeping creature_standard, just overwriting entity_default, therefore,
 	[NAME:reachman:reachmen:reachman]
 	[CASTE_NAME:reachman:reachmen:reachman]
 	[APPLY_CREATURE_VARIATION:BASE_TES_STATS]
+	[SELECT_TISSUE:SKIN]
 	[TL_COLOR_MODIFIER:BROWN:1:BURNT_UMBER:1:CINNAMON:1:COPPER:1:DARK_BROWN:1:DARK_PEACH:5:DARK_TAN:1:ECRU:1:PALE_BROWN:1:PALE_CHESTNUT:1:PALE_PINK:5:PEACH:5:PINK:5:RAW_UMBER:1:SEPIA:1:TAN:1:TAUPE_PALE:1:TAUPE_SANDY:1]
 	[PHYS_ATT_RANGE:STRENGTH:450:950:1150:1250:1350:1550:5000]              +
 	[PHYS_ATT_RANGE:ENDURANCE:450:950:1150:1250:1350:1550:5000]             +
@@ -93,6 +97,7 @@ we're keeping creature_standard, just overwriting entity_default, therefore,
 	[NAME:redguard:redguard:redguard]
 	[CASTE_NAME:redguard:redguard:redguard]
 	[APPLY_CREATURE_VARIATION:BASE_TES_STATS]
+	[SELECT_TISSUE:SKIN]
 	[TL_COLOR_MODIFIER:BROWN:5:BURNT_UMBER:5:CINNAMON:5:COPPER:1:DARK_BROWN:5:DARK_PEACH:1:DARK_TAN:3:ECRU:1:PALE_BROWN:5:PALE_CHESTNUT:1:PALE_PINK:1:PEACH:1:PINK:1:RAW_UMBER:5:SEPIA:2:TAN:1:TAUPE_PALE:2:TAUPE_SANDY:3]
 	[PHYS_ATT_RANGE:STRENGTH:450:950:1150:1250:1350:1550:5000]              +
 	[PHYS_ATT_RANGE:ENDURANCE:450:950:1150:1250:1350:1550:5000]             +
@@ -107,6 +112,7 @@ we're keeping creature_standard, just overwriting entity_default, therefore,
 	[NAME:nord:nords:nordic]
 	[CASTE_NAME:nord:nords:nordic]
 	[APPLY_CREATURE_VARIATION:BASE_TES_STATS]
+	[SELECT_TISSUE:SKIN]
 	[TL_COLOR_MODIFIER:BROWN:1:BURNT_UMBER:1:CINNAMON:1:COPPER:1:DARK_BROWN:1:DARK_PEACH:5:DARK_TAN:1:ECRU:1:PALE_BROWN:1:PALE_CHESTNUT:1:PALE_PINK:5:PEACH:5:PINK:5:RAW_UMBER:1:SEPIA:1:TAN:1:TAUPE_PALE:1:TAUPE_SANDY:1]
 	[PHYS_ATT_RANGE:STRENGTH:700:1200:1400:1500:1600:1800:5000]             ++
 	[PHYS_ATT_RANGE:AGILITY:150:600:800:900:1000:1100:5000]                 -

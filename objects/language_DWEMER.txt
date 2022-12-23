@@ -557,7 +557,7 @@ language_DWEMER
 	[T_WORD:DOUR:inchant]
 	[T_WORD:DOUSE:nchu]
 	[T_WORD:DRAB:avanu]
-	[T_WORD:DRAGON:karku]
+	[T_WORD:DRAGON:aka]
 	[T_WORD:DRAIN:sanch]
 	[T_WORD:DRAWL:karknd]
 	[T_WORD:DREAD:stamzum]

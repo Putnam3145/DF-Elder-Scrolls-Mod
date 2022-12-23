@@ -557,7 +557,7 @@ language_REDGUARD
 	[T_WORD:DOUR:win]
 	[T_WORD:DOUSE:adoh]
 	[T_WORD:DRAB:khota]
-	[T_WORD:DRAGON:moyamya]
+	[T_WORD:DRAGON:akal]
 	[T_WORD:DRAIN:frimrah]
 	[T_WORD:DRAWL:ayd]
 	[T_WORD:DREAD:bennan]
